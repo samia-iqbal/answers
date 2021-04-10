@@ -1,0 +1,55 @@
+1. 274
+2. 75.1 life expectancy AND 37032000 poluation 
+3. SELECT Name, LifeExpectancy FROM country WHERE LifeExpectancy IS NOT NULL ORDER BY LifeExpectancy DESC LIMIT 1;
+   Answer:
+    Name    | LifeExpectancy |
++---------+----------------+
+| Andorra |           83.5
+6. SELECT name FROM city WHERE name LIKE 'F%' LIMIT 25;
+   Answer:
+  Fagatogo                  |
+| Florencio Varela          |
+| Formosa                   |
+| Francistown               |
+| Fortaleza                 |
+| Feira de Santana          |
+| Franca                    |
+| Florianópolis             |
+| Foz do Iguaçu             |
+| Ferraz de Vasconcelos     |
+| Francisco Morato          |
+| Franco da Rocha           |
+| Fuenlabrada               |
+| Faridabad                 |
+| Firozabad                 |
+| Farrukhabad-cum-Fatehgarh |
+| Faizabad                  |
+| Fatehpur                  |
+| Firenze                   |
+| Foggia                    |
+| Ferrara                   |
+| Forlì                     |
+| Fukuoka                   |
+| Funabashi                 |
+| Fukuyama
+   
+7. SELECT COUNT(ID) AS 'number of cities in china' FROM city WHERE CountryCode = "CHN";
+   answer= 363
+8. SELECT Name, population FROM country WHERE population ORDER BY population ASC LIMIT 1;
+   Answer:
+    Name     | population |
++----------+------------+
+| Pitcairn |         50 |
+9. SELECT COUNT(*) FROM country;
+   answer = 239
+10. SELECT SurfaceArea, Name FROM country ORDER BY SurfaceArea DESC LIMIT 10;
+    17075400.00 - Russian Federation 
+    13120000.00 - Antartica 
+    9970610.00 - Canada
+    9572900    - United States 
+    8547403.00 - Brazil
+    7741220.00 - Australia 
+    3287263.00 - India 
+    2780400.00 - Argentina
+    2724900- Kazakstam
+11. 
